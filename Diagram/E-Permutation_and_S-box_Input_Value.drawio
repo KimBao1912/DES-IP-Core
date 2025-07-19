@@ -1,0 +1,54 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4" pages="2">
+  <diagram name="E_Permutation and S-box_Input_Value_Interface" id="qSUaGPaBseTY3caZlv28">
+    <mxGraphModel dx="512" dy="303" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xYEFcGqPK3Q2_dJjPrP8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xYEFcGqPK3Q2_dJjPrP8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xYEFcGqPK3Q2_dJjPrP8-3" target="xYEFcGqPK3Q2_dJjPrP8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xYEFcGqPK3Q2_dJjPrP8-3" value="E-Permutation and S-Box Input Value" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xYEFcGqPK3Q2_dJjPrP8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xYEFcGqPK3Q2_dJjPrP8-4" target="xYEFcGqPK3Q2_dJjPrP8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xYEFcGqPK3Q2_dJjPrP8-4" value="r_input[31:0]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="205" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xYEFcGqPK3Q2_dJjPrP8-6" value="re_xor_key[47:0]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="205" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Jrcdpe7MXVtdOST6zJZ6" name="E-Permutation_Interface">
+    <mxGraphModel dx="1050" dy="621" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nDXQLwMhDp9J75cTNBKx-1" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nDXQLwMhDp9J75cTNBKx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nDXQLwMhDp9J75cTNBKx-2" target="nDXQLwMhDp9J75cTNBKx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDXQLwMhDp9J75cTNBKx-2" value="E-Permutation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="285" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDXQLwMhDp9J75cTNBKx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nDXQLwMhDp9J75cTNBKx-3" target="nDXQLwMhDp9J75cTNBKx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nDXQLwMhDp9J75cTNBKx-3" value="r_input[31:0]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="285" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDXQLwMhDp9J75cTNBKx-4" value="re[47:0]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="285" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

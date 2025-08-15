@@ -23,5 +23,4 @@ The design can be integrated into SoC or custom ASIC/FPGA systems requiring symm
 - **Version Control**: Git
 
 ---
-
-## 📂 Project Structure
+THANK YOU FOR WATCHING !!!!
